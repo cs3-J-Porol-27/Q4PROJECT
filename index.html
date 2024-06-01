@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Joriz Zianne D. Porol">
+        <meta name="revised" content="06-01-24">
+        <title>Home</title>
+    </head>
+    <body>
+        <div class="banner">
+            <video autoplay loop muted plays-inline>
+                <source src="Rainforests 101 _ National Geographic.mp4" type="video/mp4">
+            </video>
+            <div class="navbar">
+                <ul>
+                    <li><a href="ihh.html">Sign Up</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="ecosystem.html">Ecosystem</a></li>
+                    <li><a href="animals.html">Animals</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <h1>Explore the Wonders of</h1>
+
+                <div class="color">
+                    <h1> WILDLIFE BIOLOGY </h1>
+                </div>
+
+                <h4> Welcome to FAUNA, your gateway to exploring the fascinating world of wild animals. <br> Our mission is to study the ecology and behavior of wildlife, offering <br> insights into their habitats and interactions within ecosystems.</h4>
+
+                <div>
+                    <a href="about.html"><button type="button">Start Exploring</button></a>
+                </div>
+            </div>
+    </body>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Inter;
+            box-sizing: border-box;
+        }
+        .banner{
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40));
+            background-position: center;
+            background-size: center;
+        }
+        .navbar{
+            width: 90%;
+            padding: 30px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .navbar ul li{
+            list-style: none;
+            display: inline-block;
+            margin: 20px;
+        }
+        .navbar ul li a{
+            text-decoration: none;
+            text-transform: uppercase;
+            color: white;
+            font-weight: 600;
+            padding: 15px;
+        }
+        li a:hover{
+            background: white;
+            transition: 0.6s;
+        }
+        .navbar a:hover{
+            color: black;
+        }
+
+        .content{
+            width: 100%;
+            position: absolute;
+            color: white;
+            top: 45%;
+            transform: translateY(-50%);
+            text-align: center;
+            font-family: Libre Baskerville;
+        }
+        .content h1{
+            margin-top: 80px;
+            font-size: 50px;
+            font-weight: 800;
+            font-family: Libre Baskerville;
+        }
+        .content .color h1{
+            margin-top: 5px;
+            font-size: 50px;
+            font-weight: 800;
+            color: rgb(115, 165, 174);
+        }
+        .content h4{
+            font-family: Libre Baskerville;
+            font-size: 15px;
+            font-weight: 200;
+        }
+        button{
+            background-color: transparent;
+            border: 1px solid #fff;
+            color: #eee;
+            width: 200px;
+            padding: 15px;
+            margin: 15px 5px;
+            text-align: center;
+            border-radius: 25px;
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+        button:hover{
+            background: rgb(115, 165, 174);
+            transition: 0.5s;
+        }
+        button:hover{
+            color: white;
+        }
+        .banner video{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+        @media(min-aspect-ratio: 16/9){
+            .banner video{
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</html>

@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Joriz Zianne D. Porol">
+        <meta name="revised" content="06-01-24">
+        <title>Ecosystem</title>
+    </head>
+    <body>
+        <div class="banner">
+            <div class="navbar">
+                <ul>
+                    <li><a href="signup.html">Sign Up</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="ecosystem.html">Ecosystem</a></li>
+                    <li><a href="animals.html">Animals</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                </ul>
+        </div>
+
+        <div class="slider">
+            <div class="list">
+                <div class="item active">
+                    <img src="forest_ecosystem.jpg">
+                    <div class="content">
+                        <p>FAUNA</p>
+                        <h2>FOREST</h2>
+                        <p>
+                            Forests, including tropical rainforests, temperate forests, and boreal forests (taiga), 
+                            are characterized by dense tree cover. They provide habitats for a diverse array of species such as 
+                            jaguars, orangutans, deer, bears, moose, wolves, and numerous bird and insect species.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="grassland_ecosystem.jpg">
+                    <div class="content">
+                        <p>FAUNA</p>
+                        <h2>GRASSLAND</h2>
+                        <p>
+                            Grasslands, including savannas and temperate grasslands, are dominated by grasses rather 
+                            than large trees. Savannas support large herbivores like elephants and zebras, as well as 
+                            predators like lions and cheetahs, while temperate grasslands are home to species such as bison 
+                            and pronghorns.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="desert_ecosystem.jpg">
+                    <div class="content">
+                        <p>FAUNA</p>
+                        <h2>DESERT</h2>
+                        <p>
+                            Deserts, both hot and cold, are arid regions with sparse vegetation. Hot deserts host 
+                            species adapted to extreme heat and dry conditions, such as camels, snakes, and scorpions, 
+                            while cold deserts are home to animals like the desert fox and various hardy insects.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="aquatic_ecosystem.jpg">
+                    <div class="content">
+                        <p>FAUNA</p>
+                        <h2>AQUATIC</h2>
+                        <p>
+                            Aquatic ecosystems, including freshwater (rivers, lakes, and wetlands) and marine (oceans and seas), 
+                            support a vast range of life forms. Freshwater habitats are inhabited by fish, 
+                            amphibians, and birds like herons and kingfishers, while marine environments are 
+                            home to whales, sharks, coral reefs, and numerous fish species.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="tundra_ecosystem.png">
+                    <div class="content">
+                        <p>FAUNA</p>
+                        <h2>TUNDRA</h2>
+                        <p>
+                            Tundras, comprising Arctic and Alpine tundras, are cold, treeless regions with 
+                            low-growing vegetation. The Arctic tundra is home to animals such as polar bears, caribou, 
+                            and arctic foxes, whereas the Alpine tundra, found at high altitudes, supports species 
+                            like mountain goats, pikas, and snow leopards.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="arrows">
+                <button id="prev"><</button>
+                <button id="next">></button>
+            </div>
+            <div class="thumbnail">
+                <div class="item active">
+                    <img src="forest_ecosystem.jpg">
+                    <div class="content">
+                        FOREST
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="grassland_ecosystem.jpg">
+                    <div class="content">
+                        GRASSLAND
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="desert_ecosystem.jpg">
+                    <div class="content">
+                        DESERT
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="aquatic_ecosystem.jpg">
+                    <div class="content">
+                        AQUATIC
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="tundra_ecosystem.png">
+                    <div class="content">
+                        TUNDRA
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <img src="logo_fauna (1).png" alt="Logo"/>
+
+            <div id="f1">
+            <h3>OUR GOALS:</h3>
+            <h3>EDUCATION</h3>
+            <h3>CONSERVATION</h3>
+            <h3>ENGAGEMENT</h3>
+            </div>
+            <div id="f2">
+                <h3> ABOUT </h3>
+                <h3> ECOSYSTEM </h3>
+                <h3> ANIMALS </h3>
+                <h3> QUIZ </h3>
+            </div>
+            <div id="f3">
+            <h4>
+                CONTACT US AT: <br />
+                CONTACT@FAUNA.COM<br />
+                TEL: 1149-131-1219<br />
+                FB: FAUNA OFFICIAL <br />
+                TIKTOK: @FAUNA_OFFICIAL <br />
+                IG: @FAUNA_OFFICIAL <br />
+            </h4>
+            </div>
+        </div>
+        </div>
+    </body>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+        
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Inter;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100%;
+            width: 100%;
+            font-family: "Inter", "Libre-Baskerville";
+            margin: 0;
+            background-color: #010101;
+            color: #eee;
+        }
+        *::selection {
+            background-color: #fff;
+            color: #21676a;
+        }
+        body::-webkit-scrollbar {
+            display: block;
+            width: 8px;
+            background:  rgb(115, 165, 174);
+        }
+        body::-webkit-scrollbar-thumb {
+            background-color: #fff;
+            border-radius: 50px;
+        }
+        body {
+            overflow-x: hidden;
+        }
+        .banner{
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40));
+            background-position: center;
+            background-size: center;
+        }
+        .navbar{
+            z-index: 1;
+            width: 90%;
+            padding: 30px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .navbar ul li{
+            list-style: none;
+            display: inline-block;
+            margin: 20px;
+        }
+        .navbar ul li a{
+            text-decoration: none;
+            text-transform: uppercase;
+            color: white;
+            font-weight: 600;
+            padding: 15px;
+        }
+        li a:hover{
+            background: white;
+            transition: 0.3s;
+        }
+        .navbar a:hover{
+            color: black;
+        }
+        .slider{
+            top: -30px;
+            height: 100vh;
+            position: relative;
+        }
+        .slider .list .item{
+            position: absolute;
+            inset: 0 0 0 0;
+            overflow: hidden;
+            opacity: 0;
+            transition: .5s;
+        }
+        .slider .list .item img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .slider .list .item::after{
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            background-image: linear-gradient(
+                to top, #000 20%, transparent
+            );
+        }
+        .slider .list .item .content{
+            position: absolute;
+            left: 10%;
+            top: 20%;
+            width: 500px;
+            max-width: 80%;
+            z-index: 1;
+        }
+        .slider .list .item .content p:nth-child(1){
+            text-transform: uppercase;
+            letter-spacing: 10px;
+        }
+        .slider .list .item .content h2{
+            font-family: "Libre-Baskerville";
+            font-size: 100px;
+            margin: 0;
+        }
+        .slider .list .item.active{
+            opacity: 1;
+            z-index: 10;
+        }
+        @keyframes showContent {
+            to{
+                transform: translateY(0);
+                filter: blur(0);
+                opacity: 1;
+            }
+        }
+        .slider .list .item.active p:nth-child(1),
+        .slider .list .item.active h2,
+        .slider .list .item.active p:nth-child(3){
+            transform: translateY(30px);
+            filter: blur(20px);
+            opacity: 0;
+            animation: showContent .5s .7s ease-in-out 1 forwards;
+        }
+        .slider .list .item.active h2{
+            animation-delay: 1s;
+        }
+        .slider .list .item.active p:nth-child(3){
+            animation-duration: 1.3s;
+        }
+        .arrows{
+            position: absolute;
+            top: 30%;
+            right: 50px;
+            z-index: 100;
+        }
+        .arrows button{
+            background-color: #eee5;
+            border: none;
+            font-family: monospace;
+            width: 40px;
+            height: 40px;
+            border-radius: 5px;
+            font-size: x-large;
+            color: #eee;
+            transition: .5s;
+        }
+        .arrows button:hover{
+            background-color: #eee;
+            color: black;
+        }
+        .thumbnail{
+            position: absolute;
+            bottom: 50px;
+            top: 80%;
+            z-index: 11;
+            display: flex;
+            gap: 10px;
+            width: 100%;
+            height: 250px;
+            padding: 0 50px;
+            box-sizing: border-box;
+            overflow: auto;
+            justify-content: center;
+        }
+        .thumbnail::-webkit-scrollbar{
+            width: 0;
+        }
+        .thumbnail .item{
+            width: 150px;
+            height: 220px;
+            filter: brightness(.5);
+            transition: .5s;
+            flex-shrink: 0;
+        }
+        .thumbnail .item img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .thumbnail .item.active{
+            filter: brightness(1.5);
+        }
+        .thumbnail .item .content{
+            position: absolute;
+            font-family: "Libre-Baskerville";
+            inset: auto 10px 10px 10px;
+        }
+        @media screen and (max-width: 678px) {
+            .thumbnail{
+                justify-content: start;
+            }
+            .slider .list .item .content h2{
+                font-size: 60px;
+            }
+            .arrows{
+                top: 10%;
+            }
+        }
+        .text h2 {
+            font-size: 70px;
+            margin: 0;
+            font-family: "Libre-Baskerville";
+            text-align: left;
+            padding-left: 10%;
+            padding-top: 15%;
+            color: white;
+        }
+        #footer {
+            top: 25%;
+            height: 40vh;
+            width: 100%;
+            background: linear-gradient(to left bottom, #195454 0%, #468d9d 80%);
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 6.5vw;
+            padding: 0 100px;
+        }
+        #footer > img {
+            position: absolute;
+            left: 0;
+            height: 100%;
+            z-index: 0;
+        }
+        #f1, #f2, #f3 {
+            text-align: right;
+            left: 40%;
+            width: fit-content;
+            position: relative;
+            z-index: 99;
+        }
+        #f1 h3 {
+            font-size: 1.6vw;
+            white-space: nowrap;
+            text-transform: uppercase;
+            color: white;
+            font-weight: 900;
+            margin-bottom: 8px;
+        }
+
+        #f2 h3 {
+            text-decoration: none !important;
+            font-size: 1.6vw;
+            white-space: nowrap;
+            text-transform: uppercase;
+            color: white;
+            font-weight: 800;
+            margin-bottom: 8px;
+        }
+        #f3 h4 {
+            font-size: 1vw;
+            white-space: nowrap;
+            text-transform: uppercase;
+            color: white;
+            font-weight: 600;
+            line-height: 20px;
+            margin-bottom: 8px;
+        }
+    </style>
+    <script>
+        let items = document.querySelectorAll('.slider .list .item');
+        let next = document.getElementById('next');
+        let prev = document.getElementById('prev');
+        let thumbnails = document.querySelectorAll('.thumbnail .item');
+        let countItem = items.length;
+        let itemActive = 0;
+
+        next.onclick = function(){
+            itemActive = itemActive + 1;
+            if(itemActive >= countItem){
+                itemActive = 0;
+            }
+            showSlider();
+        }
+        prev.onclick = function(){
+            itemActive = itemActive - 1;
+            if(itemActive < 0){
+                itemActive = countItem - 1;
+            }
+            showSlider();
+        }
+        let refreshInterval = setInterval(() => {
+            next.click();
+        }, 5000)
+
+        function showSlider(){
+            let itemActiveOld = document.querySelector('.slider .list .item.active');
+            let thumbnailActiveOld = document.querySelector('.thumbnail .item.active');
+            itemActiveOld.classList.remove('active');
+            thumbnailActiveOld.classList.remove('active');
+
+            items[itemActive].classList.add('active');
+            thumbnails[itemActive].classList.add('active');
+
+            clearInterval(refreshInterval);
+            refreshInterval = setInterval(() => {
+                next.click();
+            }, 5000)
+        }
+
+        thumbnails.forEach((thumbnail, index) => {
+            thumbnail.addEventListener('click', () => {
+                itemActive = index;
+                showSlider();
+            })
+        });
+    </script>
+</html>
